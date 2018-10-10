@@ -1,0 +1,16 @@
+H1 - H2:
+- Inizio progettazione
+- Aperta bacheca Trello (https://trello.com/b/IGklf6sW/progetto-tepsit)
+- Inizializzata una repo su Github (https://github.com/MrcSossy/Sloth-social)
+
+H3:
+- Schemi e moqup progetto completati
+- Mega push sulla repo con l'inizio del progetto generato
+
+H4 - H5:
+- Rigenerazione progetto senza view
+- Ricerca di un template statico per il login
+
+H6:
+- Integrazione pagine login e register
+- Prime modifiche addattamento register
