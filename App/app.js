@@ -23,6 +23,6 @@ app.use('/save', saveRouter);
 app.use('/delete', deleteRouter);
 app.use('/validate', validateRouter);
 
-console.log("[ DONE ] Checks completed, server running\n");
+console.log("[ DONE ] Checks completed, server running, listening on port: 3000\n");
 
 module.exports = app;

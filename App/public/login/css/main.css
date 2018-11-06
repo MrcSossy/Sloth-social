@@ -1,6 +1,6 @@
-
-
-
+body {
+  background-image: radial-gradient(LightYellow, BlanchedAlmond, white);
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -170,12 +170,10 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #fff;  
 }
 
 .wrap-login100 {
   width: 390px;
-  background: #fff;
 }
 
 
@@ -364,7 +362,6 @@ iframe {
   content: attr(data-validate);
   position: absolute;
   max-width: 70%;
-  background-color: #fff;
   border: 1px solid #c80000;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
@@ -400,7 +397,6 @@ iframe {
 
   display: block;
   position: absolute;
-  background-color: #fff;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -437,7 +433,6 @@ iframe {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #cccccc;
   top: 45%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
