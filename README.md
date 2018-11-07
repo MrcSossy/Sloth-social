@@ -1,4 +1,4 @@
-# Sloth-social
+# Sloth social
 ## The new solution for lazy and social students
 
 Questa applicazione è ancora una BETA, per poter funzionare necessita di NodeJs (che è possibile scaricare da <a target="_blank" href="https://nodejs.org/en/download/">QUI</a>;<br>
