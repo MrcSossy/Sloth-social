@@ -7,9 +7,11 @@ const bodyParser = bp.urlencoded({ extended: false }); // Used to parse client d
 
 router.post('/', bodyParser, function (req, res, next) {
 	req = req.body;
+	console.log(req);
 
-	fs.writeFile("./records/" + req.name + ".txt", JSON.stringify(req)); // Writes data in the txt file
+	fs.writeFile("./records/" + req.user, JSON.stringify(req)); // Writes data in the txt file
 
+	// TODO:
 	res.sendStatus(200);
 });
 

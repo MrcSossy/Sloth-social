@@ -8,7 +8,7 @@ const bodyParser = bp.urlencoded({ extended: false }); // Used to parse client d
 router.post('/', bodyParser, function (req, res, next) {
 	req = req.body;
 
-	if (fs.existsSync('./records/' + req.user + '.txt')) {
+	if (fs.existsSync('./records/' + req.user)) {
 		console.log('Found file');
 		res.sendStatus(200);
 	} else {

@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/fetch', fetchRouter);
-app.use('/save', saveRouter);
+app.use('/register', saveRouter);
 app.use('/delete', deleteRouter);
 app.use('/validate', validateRouter);
 
