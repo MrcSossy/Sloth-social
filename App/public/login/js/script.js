@@ -1,11 +1,20 @@
-function getData() {
-	var user = $("#user");
-	var pass = $("#pass");
+function login() {
+	var user = $("#user").val();
+	var pass = $("#pass").val();
 
-	console.log(user);
-	console.log(pass);
+	var auth = {
+		user: user,
+		pass: pass
+	};
 
-	/*$.post("/validate", function (data) {
-		$(".result").html(data);
-	});*/
+	console.log("Requesting for authentication...");
+
+	$.post("/validate", auth, function (data) {
+		if (data === "OK") {
+			console.log("Requesting gone well");
+		}
+		else {
+			console.log("Requesting gone bad");
+		}
+	});
 }
